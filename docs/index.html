@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>#pugMi &middot; PHP User Group Milano</title>
+<meta name="description" content="Il PHP User Group di Milano. Ci troviamo circa una volta al mese per un talk e un aperitivo: partecipare è gratuito e aperto a tutti.">
+<link rel="canonical" href="https://milano.grusp.org/">
+<meta property="og:title" content="#pugMi &middot; PHP User Group Milano">
+<meta property="og:description" content="Un talk, due chiacchiere e un aperitivo, circa una volta al mese. Partecipare non costa nulla.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://milano.grusp.org/">
+<meta property="og:image" content="https://milano.grusp.org/img/pug-milano.png">
+<meta name="theme-color" content="#57498B">
+<link rel="icon" href="img/favicon.png" sizes="180x180">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Salta al contenuto</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <img src="img/pug-milano.png" alt="#pugMi, PHP User Group Milano" width="407" height="282">
+    </a>
+    <nav class="menu" aria-label="Navigazione principale">
+      <ul>
+        <li><a href="#chi-siamo">Chi siamo</a></li>
+        <li><a href="#incontri">Incontri</a></li>
+        <li><a href="#ospitanti">Ospitaci</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-orange header-cta" href="https://www.meetup.com/it-it/milanophp/">Unisciti su Meetup</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+     <div class="hero-testo">
+      <p class="eyebrow">Dal 2012, a Milano</p>
+      <h1>Il PHP User Group<br>di Milano</h1>
+      <p class="lead">
+        Ci troviamo circa una volta al mese per un talk, due chiacchiere e un aperitivo.
+        Partecipare non costa nulla e non serve essere esperti: serve solo un po' di curiosità.
+      </p>
+      <p class="cta-row">
+        <a class="btn btn-orange" href="https://www.meetup.com/it-it/milanophp/">Unisciti su Meetup</a>
+        <a class="btn btn-ghost" href="#incontri">Guarda gli incontri</a>
+      </p>
+     </div>
+     <p class="hero-logo">
+       <img src="img/pug-milano.png" alt="" width="407" height="282">
+     </p>
+     <ul class="stats" id="stats" hidden>
+       <li><b id="stat-members">&mdash;</b> <span>membri su Meetup</span></li>
+       <li><b id="stat-rating">&mdash;</b> <span>di media sugli incontri</span></li>
+       <li><b>2012</b> <span>il primo incontro documentato</span></li>
+     </ul>
+    </div>
+  </section>
+
+  <section id="chi-siamo" class="block-purple">
+    <div class="wrap">
+      <h2>Chi siamo, cosa facciamo</h2>
+      <div class="cards">
+        <article>
+          <h3>Parte del GrUSP</h3>
+          <p>
+            Facciamo parte del <a href="https://www.grusp.org/">GrUSP</a>, il Gruppo Utenti e
+            Sviluppatori PHP, che dal 1995 organizza phpday, jsday e le altre conferenze italiane
+            sullo sviluppo web. Noi siamo la sua costola milanese, in versione informale.
+          </p>
+        </article>
+        <article>
+          <h3>Un talk a serata</h3>
+          <p>
+            Lo tiene qualcuno della community o chi passa a trovarci. Si parla di PHP e di tutto
+            quello che gli gira attorno: framework, architetture, testing, DevOps, e ultimamente
+            parecchia intelligenza artificiale.
+          </p>
+        </article>
+        <article>
+          <h3>E a volte un Dojo</h3>
+          <p>
+            Ogni tanto lasciamo il proiettore spento e facciamo un kata: si programma in coppia,
+            due pomodori, poi retrospettiva. Non serve padroneggiare il TDD né sapere a memoria
+            i design pattern, basta un minimo di praticità con PHP.
+          </p>
+        </article>
+        <article>
+          <h3>Gratis, sempre</h3>
+          <p>
+            Gli incontri sono gratuiti e aperti a tutti. Sono le aziende che ci ospitano, e a
+            volte offrono anche l'aperitivo: a chi partecipa non chiediamo nulla.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="incontri">
+    <div class="wrap">
+      <h2>Incontri</h2>
+
+      <h3 class="sr-only">Prossimo incontro</h3>
+      <div id="prossimo" class="next" aria-live="polite">
+        <p class="loading">Carico gli incontri&hellip;</p>
+      </div>
+
+      <h3 id="passati-titolo">Gli incontri passati</h3>
+      <div id="passati" class="event-grid"></div>
+      <p class="more">
+        <a href="https://www.meetup.com/it-it/milanophp/events/past/">Tutti gli incontri su Meetup &rarr;</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="ospitanti" class="block-tint">
+    <div class="wrap ospita">
+      <div>
+        <h2>Ospita una serata</h2>
+        <p class="section-lead">
+          Non abbiamo una sede. Ogni incontro esiste perché un'azienda apre le porte
+          per una sera: è la cosa di cui abbiamo più bisogno.
+        </p>
+        <p>
+          <a class="btn btn-orange" href="#contatti">Proponi una sala</a>
+        </p>
+      </div>
+      <dl class="patto">
+        <dt>Cosa serve</dt>
+        <dd>
+          Una sala per una trentina di persone, un proiettore o uno schermo, e una
+          sera infrasettimanale. Il resto lo portiamo noi.
+        </dd>
+        <dt>Cosa offriamo</dt>
+        <dd>
+          Il vostro nome sull'evento e sui nostri canali, davanti a una community di
+          <span id="platea">1000+</span> sviluppatori a Milano. E una serata di
+          persone che parlano volentieri del vostro stack.
+        </dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="organizzatori" class="block-yellow">
+    <div class="wrap">
+      <h2>Chi organizza</h2>
+      <div class="organizers">
+        <div class="person">
+          <img src="img/michele.png" alt="" width="160" height="160">
+          <div>
+            <h3>Michele Sangalli</h3>
+            <p>
+              Software engineer DevOps in Trustfull, sviluppatore per passione prima che
+              per contratto. Ha contribuito a rimettere in piedi il PUG nel giugno 2025 e
+              da allora organizza gli incontri. Fuori orario: TTRPG, gaming e un pizzico
+              di weeb.
+            </p>
+            <p class="person-link">
+              <a href="https://www.linkedin.com/in/michele-sangalli-75b91a7a/">LinkedIn</a> &middot;
+              <a href="https://github.com/mikysan">GitHub</a>
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3>Cerchiamo una mano</h3>
+          <p>
+            Al momento il PUG lo tiene in piedi una persona sola, e così non va molto lontano.
+            Serve aiuto su tutto: organizzare le serate, tenere un talk, trovare una sala.
+            Non serve esperienza da speaker né un curriculum: se ti va di dare una mano,
+            <a href="#contatti">scrivici</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contatti">
+    <div class="wrap contact">
+      <div>
+        <h2>Scrivici</h2>
+        <p class="section-lead">
+          Per proporre un talk, offrire una sala, dare una mano o solo per chiedere qualcosa.
+        </p>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="be97ab4e-8a3a-4ba5-906f-93df00ac4f7e">
+          <input type="hidden" name="subject" value="Nuovo messaggio da milano.grusp.org">
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <p>
+            <label for="f-nome">Nome</label>
+            <input id="f-nome" name="name" type="text" required autocomplete="name">
+          </p>
+          <p>
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" required autocomplete="email">
+          </p>
+          <p>
+            <label for="f-msg">Messaggio</label>
+            <textarea id="f-msg" name="message" rows="5" required></textarea>
+          </p>
+          <p>
+            <button class="btn btn-orange" type="submit">Invia</button>
+          </p>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <aside>
+        <h3>Oppure direttamente</h3>
+        <ul class="links">
+          <li><a href="mailto:milano@grusp.org">milano@grusp.org</a></li>
+          <li><a href="https://www.meetup.com/it-it/milanophp/">Gruppo Meetup</a></li>
+          <li><a href="https://slack.grusp.org/">Slack del GrUSP</a></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="https://www.grusp.org/">
+      <img src="img/grusp.png" alt="GrUSP" width="346" height="87">
+    </a>
+    <p>
+      #pugMi è il PHP User Group di Milano, parte del GrUSP.<br>
+      <a href="https://github.com/GrUSP/milano.grusp.org">Il sorgente di questo sito</a> è su GitHub.
+    </p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

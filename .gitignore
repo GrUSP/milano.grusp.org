@@ -1,0 +1,4 @@
+# File di sola ispezione: mostra come lo scraper compila events.json, con un
+# evento finto nel ramo "upcoming" che nel file vero è vuoto.
+# Attenzione: docs/data/events.json NON va ignorato, è il file che legge il sito.
+events.example.json

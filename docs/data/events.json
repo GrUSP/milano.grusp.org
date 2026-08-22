@@ -1,0 +1,129 @@
+{
+ "group": {
+  "members": 1488,
+  "rating": 4.59,
+  "ratings_count": 316,
+  "url": "https://www.meetup.com/it-it/milanophp/"
+ },
+ "upcoming": [],
+ "past": [
+  {
+   "id": "314464255",
+   "title": "Claude Code: quello che avrei voluto sapere prima",
+   "url": "https://www.meetup.com/pugmilano/events/314464255/",
+   "start": "2026-05-19T18:30:00+02:00",
+   "going": 69,
+   "online": false,
+   "venue": {
+    "name": "Talent Garden Isola",
+    "city": "Milano"
+   },
+   "excerpt": "Come sono passato dallo snobbare Claude Code (perché mi rallentava in qualsiasi task che non fossero i test automatici) a non riuscire più a farne a meno neanche per scrivere la descrizione di un…"
+  },
+  {
+   "id": "313907884",
+   "title": "Da una grande architettura, derivano grandi responsabilità",
+   "url": "https://www.meetup.com/pugmilano/events/313907884/",
+   "start": "2026-04-22T18:30:00+02:00",
+   "going": 20,
+   "online": false,
+   "venue": {
+    "name": "Mollie Milan Office",
+    "city": "Milan"
+   },
+   "excerpt": "Dopo aver giocato un po' con l'AI, rimettiamo le mani su PHP Laravel con un talk pratico sull’Architettura Esagonale. 👉 Evento gratuito – registrati per partecipare 📍 Mercoledì 22 aprile – Mollie…"
+  },
+  {
+   "id": "311454671",
+   "title": "\"Dating\" Doctrine ORM and MySQL Virtual columns (no Tinder related)",
+   "url": "https://www.meetup.com/pugmilano/events/311454671/",
+   "start": "2025-11-26T18:30:00+01:00",
+   "going": 12,
+   "online": false,
+   "venue": {
+    "name": "Facile.it",
+    "city": "Milano"
+   },
+   "excerpt": "Dopo aver giocato un po’ con l’AI, torniamo a mettere le mani nel codice! Si parlerà di PHP, Doctrine e MySQL con un talk che vale davvero la pena. L’evento è gratuito, basta registrarsi per…"
+  },
+  {
+   "id": "308612102",
+   "title": "AI Agents in azione: Dall’idea al codice",
+   "url": "https://www.meetup.com/pugmilano/events/308612102/",
+   "start": "2025-09-18T19:00:00+02:00",
+   "going": 49,
+   "online": false,
+   "venue": {
+    "name": "Trustfull",
+    "city": "Milano"
+   },
+   "excerpt": "Dopo una pausa estiva torna il PUG Milano! L'evento è gratuito, registrati per partecipare. Speaker di questo meetup è Francesco Panina, con un talk dal titolo \"AI Agents in azione: Dall’idea al…"
+  },
+  {
+   "id": "307934833",
+   "title": "Torna il PUG Milano! Agenti intelligenti in PHP: tool calling e MCP",
+   "url": "https://www.meetup.com/pugmilano/events/307934833/",
+   "start": "2025-06-16T18:30:00+02:00",
+   "going": 25,
+   "online": false,
+   "venue": {
+    "name": "Trustfull",
+    "city": "Milano"
+   },
+   "excerpt": "Torna il PUG Milano! L'evento è gratuito, registrati per partecipare. Speaker di questo meetup è Enrico Zimuel, con un talk dal titolo \"Agenti intelligenti in PHP: tool calling e Model Context…"
+  },
+  {
+   "id": "302388624",
+   "title": "Why you should consider Drupal for your next project",
+   "url": "https://www.meetup.com/pugmilano/events/302388624/",
+   "start": "2024-09-11T19:00:00+02:00",
+   "going": 11,
+   "online": false,
+   "venue": {
+    "name": "SparkFabrik",
+    "city": "Milano"
+   },
+   "excerpt": "Details Dettagli Cari PUGgers milanesi, siamo felici di annunciare il primo evento PUGMI 2024 dopo l'estate! Non vediamo l'ora di rivedervi tutti! L'11 Settembre, Luca Lusso (Lead Developer @…"
+  },
+  {
+   "id": "301618069",
+   "title": "Symfony Messenger: the sharpest tool in your PHP toolbox",
+   "url": "https://www.meetup.com/pugmilano/events/301618069/",
+   "start": "2024-07-10T19:00:00+02:00",
+   "going": 16,
+   "online": false,
+   "venue": {
+    "name": "Facile.it",
+    "city": "Milano"
+   },
+   "excerpt": "Dettagli Cari PUGgers milanesi, siamo felici di annunciare il primo evento PUGMI 2024 di mezza estate! Non vediamo l'ora di rivedervi tutti! Il 10 Luglio, Alessandro Lai (Head of Platform - IT @…"
+  },
+  {
+   "id": "296378776",
+   "title": "Come trasformare i vostri comandi PHP Symfony in funzioni AWS lambda",
+   "url": "https://www.meetup.com/pugmilano/events/296378776/",
+   "start": "2023-10-25T19:00:00+02:00",
+   "going": 16,
+   "online": false,
+   "venue": {
+    "name": "Viale Certosa, 2",
+    "city": "Milano"
+   },
+   "excerpt": "Details Cari PUGgers milanesi, siamo felici di annunciare il prossimo evento PUGMI di rientro dall'estate! Non vediamo l'ora di rivedervi tutti! Il 25 Ottobre, Franco Lombardo (Senior Agile Software…"
+  },
+  {
+   "id": "293116529",
+   "title": "Acceptance test & Raccolta dei requisiti",
+   "url": "https://www.meetup.com/pugmilano/events/293116529/",
+   "start": "2023-06-22T19:00:00+02:00",
+   "going": 22,
+   "online": false,
+   "venue": {
+    "name": "C30 - OneDay Group",
+    "city": "Milano"
+   },
+   "excerpt": "Details Cari PUGgers milanesi, siamo felici di annunciare il prossimo evento PUGMI del 2023! Non vediamo l'ora di rivedervi tutti! A metà Giugno, Andrea Francia (TDD Specialist, Software engineer @…"
+  }
+ ],
+ "fetched_at": "2026-08-22T10:50:15+00:00"
+}
