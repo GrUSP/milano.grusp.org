@@ -1,0 +1,40 @@
+name: Aggiorna gli eventi da Meetup
+
+# Meetup non ha più un'API pubblica: i dati si leggono dal blob __NEXT_DATA__ della
+# pagina del gruppo. Il browser non può farlo (nessun header CORS), quindi ci pensa
+# questo job e il sito legge il JSON committato, same-origin.
+on:
+  schedule:
+    - cron: "0 5 1,15 * *"   # il 1 e il 15 di ogni mese, 05:00 UTC
+  workflow_dispatch:          # per forzare un aggiornamento quando si pubblica un evento
+
+permissions:
+  contents: write
+
+concurrency:
+  group: eventi
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Nessuna dipendenza da installare: lo script usa solo la stdlib.
+      # Se Meetup cambia la struttura della pagina, lo script esce con errore e
+      # il job falla in modo visibile invece di sovrascrivere il JSON buono.
+      - name: Scarica gli eventi
+        run: python3 scripts/fetch_events.py
+
+      - name: Committa se qualcosa è cambiato
+        run: |
+          if git diff --quiet -- docs/data/events.json; then
+            echo "nessuna variazione, niente commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/events.json
+          git commit -m "Aggiorna gli eventi da Meetup"
+          git push
