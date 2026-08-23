@@ -1,6 +1,6 @@
 # milano.grusp.org
 
-Sito del [#pugMi](https://www.meetup.com/it-it/milanophp/), il PHP User Group di Milano.
+Sito del [#pugMi](https://www.meetup.com/it-it/milanophp/), il Programmer User Group di Milano.
 Una pagina statica servita da GitHub Pages. Nessun build step, nessuna dipendenza da installare.
 
 ## Com'è organizzato
