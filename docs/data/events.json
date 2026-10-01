@@ -1,11 +1,25 @@
 {
  "group": {
-  "members": 1483,
+  "members": 1488,
   "rating": 4.59,
   "ratings_count": 316,
   "url": "https://www.meetup.com/it-it/milanophp/"
  },
- "upcoming": [],
+ "upcoming": [
+  {
+   "id": "316663478",
+   "title": "From vibing to engineering",
+   "url": "https://www.meetup.com/pugmilano/events/316663478/",
+   "start": "2026-10-07T18:30:00+02:00",
+   "going": 17,
+   "online": false,
+   "venue": {
+    "name": "Via Malaga, 4",
+    "city": "Milano"
+   },
+   "excerpt": "Far scrivere codice all'AI è la parte facile. Il difficile è tenerlo leggibile, testato e mantenibile quando a lavorarci è un team intero. 👉 Evento gratuito, posti limitati: registrati per…"
+  }
+ ],
  "past": [
   {
    "id": "314464255",
@@ -125,5 +139,5 @@
    "excerpt": "Details Cari PUGgers milanesi, siamo felici di annunciare il prossimo evento PUGMI del 2023! Non vediamo l'ora di rivedervi tutti! A metà Giugno, Andrea Francia (TDD Specialist, Software engineer @…"
   }
  ],
- "fetched_at": "2026-09-15T09:46:10+00:00"
+ "fetched_at": "2026-10-01T11:21:24+00:00"
 }
